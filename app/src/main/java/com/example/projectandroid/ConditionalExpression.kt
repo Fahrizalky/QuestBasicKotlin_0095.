@@ -1,13 +1,11 @@
 package com.example.projectandroid
 
-class ConditionalStatement {
 
-}
 
 // Conditional Expression
 // Conditional expression adalah ekspresi yang mengembalikan nilai berdasarkan kondisi tertentu
 // Conditional expression menggunakan if-else, when, dan try-catch
-fun ConditionalStatment() {
+fun ConditionalStatement() {
     println("=== Conditional Expression ===")
 
 // If-Else
@@ -60,7 +58,7 @@ fun Perulangan() {
         x++
     }
 
-    var y=1
+    var y =1
     do {
         println("Perulangan ke-$y")
         y++

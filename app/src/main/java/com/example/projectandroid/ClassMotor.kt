@@ -1,6 +1,6 @@
 package com.example.projectandroid
 
-class ClassMotor()
+class Motor()
 
 class Contact(val id: Int, var email: String)
 
@@ -11,5 +11,6 @@ fun main(){
 
 // Update the value of the property: email
     contact.email = "jane@gmail.com"
+    println(contact.email)
 
 }

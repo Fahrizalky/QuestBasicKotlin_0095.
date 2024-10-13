@@ -101,7 +101,24 @@ fun ContohMap() {
     shape["Squre"] = 5
     println(shape)
 
+// Menghapus data di dalam Map Mutable
+    shape.remove("Circle")
+    println(shape)
 
+    // Mengubah data di dalam Map Mutable
+    shape["Squre"] = 5
+    println(shape)
+
+    // Map Read-Only
+    val shapesLocked: Map<String, Int> = shape
+    println(shapesLocked)
+}
+
+fun main () {
+    ContohList()
+    ContohSet()
+    ContohMap()
+}
 
 
 
